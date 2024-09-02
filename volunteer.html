@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer with Us - Our NGO</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <img src="images/ngo-logo.png" alt="NGO Logo" class="logo">
+    <h1>Volunteer with Us</h1>
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="volunteer-intro">
+  <h2>Join Our Volunteer Team</h2>
+  <p>Your time and skills can make a significant difference in our community. Whether you're passionate about education, healthcare, or environmental sustainability, we have a place for you. Join us today and be part of something meaningful.</p>
+</section>
+
+<section class="volunteer-opportunities">
+  <h2>Volunteer Opportunities</h2>
+  <div class="opportunity-list">
+    <article class="opportunity-item">
+      <h3>Education Programs</h3>
+      <p>Help us provide quality education to children in underserved communities. Volunteers can assist with teaching, tutoring, and organizing educational events.</p>
+    </article>
+    <article class="opportunity-item">
+      <h3>Healthcare Initiatives</h3>
+      <p>Join our healthcare initiatives to offer medical services and health education in remote areas. We need volunteers with medical expertise as well as those who can assist in organizing health camps.</p>
+    </article>
+    <article class="opportunity-item">
+      <h3>Environmental Projects</h3>
+      <p>Contribute to our environmental sustainability projects, including tree planting, waste management, and community education on environmental conservation.</p>
+    </article>
+  </div>
+</section>
+
+<section class="volunteer-form-section">
+  <h2>Volunteer Sign-Up</h2>
+  <form id="volunteerForm">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="interest">Area of Interest:</label>
+    <select id="interest" name="interest" required>
+      <option value="">Select an area</option>
+      <option value="education">Education</option>
+      <option value="healthcare">Healthcare</option>
+      <option value="environment">Environmental Sustainability</option>
+      <option value="community_outreach">Community Outreach</option>
+    </select>
+
+    <label for="availability">Availability:</label>
+    <input type="text" id="availability" name="availability" required placeholder="e.g., Weekends, Weekdays">
+
+    <label for="message">Additional Information (optional):</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2024 Our NGO. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

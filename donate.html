@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate - Our NGO</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <img src="images/ngo-logo.png" alt="NGO Logo" class="logo">
+    <h1>Support Our Cause</h1>
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="donate-intro">
+  <h2>Your Donation Makes a Difference</h2>
+  <p>Your generous contributions enable us to continue our mission of improving lives and empowering communities. Every donation, no matter the size, helps us create sustainable change.</p>
+</section>
+
+<section class="impact-section">
+  <h2>How Your Donations Help</h2>
+  <div class="impact-list">
+    <article class="impact-item">
+      <h3>Education</h3>
+      <p>Your donations help build schools, provide educational materials, and support teacher training programs, giving children the tools they need for a brighter future.</p>
+    </article>
+    <article class="impact-item">
+      <h3>Healthcare</h3>
+      <p>Donations fund health camps, provide essential medical supplies, and support outreach programs that offer life-saving healthcare to underserved communities.</p>
+    </article>
+    <article class="impact-item">
+      <h3>Environment</h3>
+      <p>Contributions are used to plant trees, clean up rivers, and run awareness campaigns that educate communities on the importance of protecting our environment.</p>
+    </article>
+  </div>
+</section>
+
+<section class="donate-form-section">
+  <h2>Donate Now</h2>
+  <form id="donationForm">
+    <label for="donorName">Full Name:</label>
+    <input type="text" id="donorName" name="donorName" required>
+
+    <label for="donorEmail">Email:</label>
+    <input type="email" id="donorEmail" name="donorEmail" required>
+
+    <label for="donorPhone">Phone Number:</label>
+    <input type="tel" id="donorPhone" name="donorPhone" required>
+
+    <label for="donationAmount">Donation Amount:</label>
+    <select id="donationAmount" name="donationAmount" required>
+      <option value="">Select an amount</option>
+      <option value="10">$10</option>
+      <option value="20">$20</option>
+      <option value="50">$50</option>
+      <option value="100">$100</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="otherAmount" id="otherAmountLabel" style="display: none;">Enter Amount:</label>
+    <input type="number" id="otherAmount" name="otherAmount" min="1" style="display: none;">
+
+    <label for="paymentMethod">Payment Method:</label>
+    <select id="paymentMethod" name="paymentMethod" required>
+      <option value="">Select a payment method</option>
+      <option value="credit_card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+      <option value="bank_transfer">Bank Transfer</option>
+    </select>
+
+    <label for="donationMessage">Message (optional):</label>
+    <textarea id="donationMessage" name="donationMessage" rows="4" placeholder="Leave a message with your donation (optional)"></textarea>
+
+    <button type="submit">Submit Donation</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2024 Our NGO. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
